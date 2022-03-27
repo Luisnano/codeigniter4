@@ -4,3 +4,146 @@ CRITICAL - 2022-03-26 18:28:05 --> The framework needs the following extension(s
 #2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
 #3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
 #4 {main}
+CRITICAL - 2022-03-26 17:14:50 --> Class "App\Controller\Controllers" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('articulo/home')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('articulo/home')
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-26 17:16:31 --> Class "App\Controller\Controllers" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('articulo/home')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('articulo/home')
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-26 17:22:02 --> Class "CodeIgniter\Controllers" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('articulo/home')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('articulo/home')
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-26 17:40:52 --> Class "App\Controllers\ArticuloModel" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->index()
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 18:32:10 --> Class "Codeception\Exceptions\PageNotFoundException" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overlook')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 18:33:07 --> Class "CodecIgniter\Exceptions\PageNotFoundException" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overlook')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 18:33:32 --> Invalid file: templates/header.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Articulo.php(32): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overview')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 18:37:47 --> Invalid file: templates/header.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Articulo.php(32): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overview')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 18:38:52 --> Invalid file: templates/header.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Articulo.php(32): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overview')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 18:41:17 --> Undefined constant "App\Controllers\page"
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overview')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 18:41:35 --> Invalid file: templates/footer.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/foote...')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Articulo.php(34): view('templates/foote...', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overview')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 19:00:42 --> syntax error, unexpected token "echo", expecting "]"
+#0 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('articulo/view/o...')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('articulo/view/o...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 19:01:07 --> syntax error, unexpected variable "$model", expecting ";" or "{"
+#0 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('articulo/view/o...')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('articulo/view/o...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 19:01:19 --> syntax error, unexpected variable "$model", expecting ";" or "{"
+#0 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('articulo/view/o...')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('articulo/view/o...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 19:01:22 --> syntax error, unexpected variable "$model", expecting ";" or "{"
+#0 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('articulo/view/o...')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('articulo/view/o...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 19:01:42 --> Unclosed '{' on line 8
+#0 C:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('articulo/view/o...')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('articulo/view/o...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 19:01:56 --> Class "App\Controllers\ArticuloModel" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overview')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 19:02:28 --> Class "App\Controllers\ArticuloModel" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overview')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 19:04:42 --> Class "App\Controllers\ArticuloModel" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('overview')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 19:10:25 --> Class "App\Controllers\ArticuloModel" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Articulo->view('creararticulo')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulo))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
